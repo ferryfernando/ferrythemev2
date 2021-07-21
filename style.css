@@ -156,12 +156,21 @@ a.text-pink:hover {
 .bg-dark-ffe {
     background-color: #000000;
 }
+
 /* 
 article p, img, figure, h1, ul.list-inline {
     padding-left: 1rem;
     padding-right: 1rem;
 } */
 
-.page-item:first-child .page-link, .page-item:last-child .page-link {
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
     border-radius: 0;
+}
+
+@media (max-width: 767.98px) {
+    article,
+    .nav-bb {
+        border-bottom: 1px solid #dee2e6;
+    }
 }
