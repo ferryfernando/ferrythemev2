@@ -169,6 +169,7 @@ article p, img, figure, h1, ul.list-inline {
 }
 
 @media (max-width: 767.98px) {
+    #jumbo,
     article,
     .nav-bb {
         border-bottom: 1px solid #dee2e6;
